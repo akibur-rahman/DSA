@@ -1,6 +1,7 @@
 def print_items(n):
     for i in range(n):
-        print(i+1)
+        for j in range(n):
+            print(j+1)
 
 
-print_items(10)
+print_items(int(input("Enter the nummber:")))
